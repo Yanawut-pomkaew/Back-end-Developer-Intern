@@ -57,7 +57,7 @@
 
     if ( $headerLen < 4 || $headerLen > 140) {  
         echo '<script language="javascript">';
-        echo "alert('หัวกระทู้จะตั้งมีความยาวตั้งแต่ 4-140 ตัวอักษร')";  
+        echo "alert('หัวกระทู้จะต้องมีความยาวตั้งแต่ 4-140 ตัวอักษร')";  
         echo '</script>';
         exit;
     }
@@ -66,7 +66,7 @@
     $contentLen = strlen($_POST["content"]);
     if ( $contentLen < 13 || $contentLen > 2007) {  
         echo '<script language="javascript">';
-        echo "alert('เนื้อหากระทู้จะตั้งมีความยาวตั้งแต่ 6-2000 ตัวอักษร')";  
+        echo "alert('เนื้อหากระทู้จะต้องมีความยาวตั้งแต่ 6-2000 ตัวอักษร')";  
         echo '</script>';
         exit;
     }
