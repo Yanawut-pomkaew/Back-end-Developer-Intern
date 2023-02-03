@@ -1,4 +1,4 @@
-# Back-end-Developer-Intern-
+# Back-end-Developer-Intern
 
 ![image](https://user-images.githubusercontent.com/69069090/214589772-297261fa-4316-44c3-aa80-54bfa5eef427.png)
 
